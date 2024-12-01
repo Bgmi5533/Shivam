@@ -12,11 +12,11 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from threading import Thread
 
 loop = asyncio.get_event_loop()
-TOKEN = '7557086640'
+TOKEN = '7698891051:AAFSf_SPy5mhopjIiIJ2HMDF9URTe5yUP-0'
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
-FORWARD_CHANNEL_ID = -1002224222985
-CHANNEL_ID = -1002224222985
-error_channel_id = -1002224222985
+FORWARD_CHANNEL_ID = -1002483894598
+CHANNEL_ID = -1002483894598
+error_channel_id = -1002483894598
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
